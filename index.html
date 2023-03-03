@@ -5,23 +5,41 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./style.css" />
 		<title>Формы регистрации</title>
 	</head>
 	<body class="root">
 		<!-- Section Popup Enter -->
 		<div class="popup popup_type_enter">
 			<div class="popup__container">
-
 				<img class="popup__logo" src="./images/Logo.svg" alt="Логтип" />
 
-				<form class="popup__form">
-					<input type="text" />
-					<input type="text" />
+				<form class="popup__form" name="popup__form-enter" novalidate>
+					<input
+						class="popup__input popup__input_type_email"
+						type="email"
+						id="email-input"
+						name="emailInput"
+						placeholder="Введите E-mail"
+						required
+					/>
+					<input
+						class="popup__input popup__input_type_password"
+						type="text"
+						id="password-input"
+						name="passwordInput"
+						placeholder="Введите пароль"
+						required
+						minlength="7"
+						maxlength="25"
+					/>
 				</form>
 
-				<div class="popup__select">
-					<input class="popup__checkbox" type="checkbox" id="rememder" name="rememder" value="rememder" />
+				<div class="popup__links">
+					<label class="popup__select">
+						<input class="popup__checkbox" type="checkbox" id="rememder" name="rememder" value="rememder" checked />
+						<a class="popup__remember-password" href="#">Запомнить</a>
+					</label>
 					<a class="popup__forget-password" href="#">Забыли пароль?</a>
 				</div>
 
@@ -63,15 +81,17 @@
 					</ul>
 				</div>
 
-        <div class="popup__description">
-          <p class="popup__description_type_registration">Если у вас еще нет профиля - 
-            <a class="popup__description-link" href="#">зарегистрируйтесь</a>
-          </p>
-          <p class="popup__description_type_offer">Регистрируясь на сайте, вы подтверждаете, что ознакомлены с договором 
-            <a class="popup__description-link-offer" href="#">Оферты</a>
-          </p>
-        </div>
-
+				<div class="popup__description">
+					<p class="popup__description_type_registration">
+						Если у вас еще нет профиля -
+						<a class="popup__description-link" href="#">зарегистрируйтесь</a>
+					</p>
+					<p class="popup__description_type_offer">
+						Регистрируясь на сайте, вы подтверждаете, что ознакомлены с договором
+						<a class="popup__description-link-offer" href="#">Оферты</a>
+					</p>
+				</div>
+				
 			</div>
 		</div>
 	</body>
