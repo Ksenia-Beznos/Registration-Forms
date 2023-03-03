@@ -36,7 +36,7 @@ ____
 
 ____
 
-**Ссылка на калькулятор**: https://ksenia-beznos.github.io/Registration-Forms/
+**Ссылка на проект**: https://ksenia-beznos.github.io/Registration-Forms/
 
 Структура составлена по технологии **БЭМ**.
 
