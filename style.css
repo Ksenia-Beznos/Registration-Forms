@@ -47,6 +47,11 @@
 	padding-left: 82px;
 }
 
+.popup__input:focus {
+	color: #565656;
+	background-color: #d2d1d1;
+}
+
 .popup__input_type_email {
 	background-image: url(./images/icon_enter.svg);
 	background-position: 23px;
