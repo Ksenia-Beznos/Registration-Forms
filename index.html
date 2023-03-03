@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./style.css" />
+		<title>Формы регистрации</title>
+	</head>
+	<body class="root">
+		<!-- Section Popup Enter -->
+		<div class="popup popup_type_enter">
+			<div class="popup__container">
+
+				<img class="popup__logo" src="./images/Logo.svg" alt="Логтип" />
+
+				<form class="popup__form">
+					<input type="text" />
+					<input type="text" />
+				</form>
+
+				<div class="popup__select">
+					<input class="popup__checkbox" type="checkbox" id="rememder" name="rememder" value="rememder" />
+					<a class="popup__forget-password" href="#">Забыли пароль?</a>
+				</div>
+
+				<button class="popup__button" type="submit" name="submitEnter" aria-label="Войти">Войти</button>
+
+				<div class="popup__icons-block">
+					<a class="popup__authorization" href="#">или авторизуйтесь через:</a>
+					<ul class="popup__icons">
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/yandex.svg" alt="Яндекс" />
+							</a>
+						</li>
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/google.svg" alt="Google" />
+							</a>
+						</li>
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/vk.svg" alt="Вконтакте" />
+							</a>
+						</li>
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/facebook.svg" alt="facebook" />
+							</a>
+						</li>
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/instagram.svg" alt="Instagram" />
+							</a>
+						</li>
+						<li>
+							<a class="popup__social-link" href="#">
+								<img class="popup__social-icon" src="./images/twitter.svg" alt="Twitter" />
+							</a>
+						</li>
+					</ul>
+				</div>
+
+        <div class="popup__description">
+          <p class="popup__description_type_registration">Если у вас еще нет профиля - 
+            <a class="popup__description-link" href="#">зарегистрируйтесь</a>
+          </p>
+          <p class="popup__description_type_offer">Регистрируясь на сайте, вы подтверждаете, что ознакомлены с договором 
+            <a class="popup__description-link-offer" href="#">Оферты</a>
+          </p>
+        </div>
+
+			</div>
+		</div>
+	</body>
+</html>
